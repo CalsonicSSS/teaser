@@ -1,7 +1,9 @@
 // from home page to send api to process user query in the backend
 
+import { local, prod } from "@/constants/apiDomain";
+
 export async function sendUserQueryApi(userQuery: string): Promise<Response> {
-  const response = await fetch("https://api.chainnect.ai/query", {
+  const response = await fetch(`${prod}/query`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
