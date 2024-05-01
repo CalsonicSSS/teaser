@@ -43,6 +43,8 @@ export default function HomePage(): ReactElement {
   const endOfMessagesRef = useRef<HTMLDivElement | null>(null);
   const [openModal, setOpenModal] = useState(false);
 
+  const [test, setTest] = useState("test");
+
   // ----------------------------------------------------------------------------------------------------
 
   function setCurrentSelectedMenuHandler(newSelectedMenuName: string): void {
