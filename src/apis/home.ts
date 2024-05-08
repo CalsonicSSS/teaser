@@ -1,5 +1,5 @@
 // from home page to send api to process user query in the backend
-
+// test change for git hub account switch
 import { local, prod } from "@/constants/apiDomain";
 
 export async function sendUserQueryApi(userQuery: string): Promise<Response> {
