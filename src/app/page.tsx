@@ -176,7 +176,7 @@ export default function HomePage(): ReactElement {
       <Box width={"15%"} padding={"20px"}>
         <Box bgcolor={"#3E3E45"} height={"100%"} borderRadius={chainnectStyle.boarderRadius} paddingY={"30px"}>
           <Typography variant='h3' color={"white"} display={"flex"} justifyContent={"center"} marginBottom={"50px"}>
-            Chainnect
+            Flowmatic
           </Typography>
           <Menu
             menuName={"Retrieval"}
