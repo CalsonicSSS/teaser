@@ -242,7 +242,7 @@ export default function HomePage(): ReactElement {
               {messagePair.botResponse && (
                 <Box>
                   <Typography variant='body1' fontWeight={"bold"} color='Black'>
-                    Chainnect
+                    Flowmatic
                   </Typography>
                   <Typography variant='body1' color='textSecondary' sx={{ whiteSpace: "pre-line" }}>
                     {messagePair.botResponse}
@@ -255,7 +255,7 @@ export default function HomePage(): ReactElement {
                 <Box>
                   <Box display={"flex"} justifyContent={"space-between"} alignItems={"center"}>
                     <Typography variant='body1' fontWeight={"bold"} color='Black' marginBottom={"10px"}>
-                      Chainnect
+                      Flowmatic
                     </Typography>
                     <Button onClick={() => downloadExcel(messagePair.botDataFrameResponse!)}>Download as Excel</Button>
                   </Box>
